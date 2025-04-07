@@ -1,0 +1,8 @@
+doctrine:
+  dbal:
+    types:
+      text[]: MartinGeorgiev\Doctrine\DBAL\Types\TextArray
+
+    mapping_types:
+      text[]: text[]
+      _text: text[]
